@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopr</title>
+</head>
+<body>
+
+<h1 th:text="${
+'id: ' + article.id +
+'title: ' + article.title +
+'price: ' + article.price +
+'deliveryId: ' + article.deliveryId
+}">this is where the articles will be shown</h1>
+
+</body>
+</html>
